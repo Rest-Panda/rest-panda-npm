@@ -1,0 +1,18 @@
+{
+  "name": "rest-panda",
+  "version": "1.0.0",
+  "description": "Module responsible to connect, download and configure a Rest Panda project",
+  "license": "Apache-2.0",
+  "author": "Moises Batista",
+  "bin": {
+    "rest-panda": "rest-panda.js"
+  },
+  "dependencies": {
+    "commander": "^2.17.1",
+    "inquirer": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rest-Panda/rest-panda-npm.git"
+  }
+}
