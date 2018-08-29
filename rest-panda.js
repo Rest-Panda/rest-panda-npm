@@ -23,7 +23,7 @@ cli
 
 cli
     .command('gen-client <platform>')
-    .action(function (app, cmd) {
+    .action(function (platform, cmd) {
         console.log('*** Please inform your credentials to access the Rest Panda account ***');
         prompt(questions)
             .then(answers => console.log(answers))
@@ -31,7 +31,7 @@ cli
 
 cli
     .command('gen-server <platform>')
-    .action(function (app, cmd) {
+    .action(function (platform, cmd) {
         console.log('*** Please inform your credentials to access the Rest Panda account ***');
         prompt(questions)
             .then(answers => console.log(answers))
